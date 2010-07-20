@@ -55,7 +55,7 @@ module Juggernaut
     def add_channels_to_clients(client_ids, channels)
       fc = {
         :command    => :query,
-        :type       => :add_channels_to_client,
+        :type       => :add_channels_to_clients,
         :client_ids => client_ids,
         :channels   => channels
       }
